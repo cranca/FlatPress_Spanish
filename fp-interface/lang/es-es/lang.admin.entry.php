@@ -3,9 +3,9 @@
 
 	$lang['admin']['entry']['submenu'] = 
 	array (
-		'list'		=> 'Manejar entradas',
-		'write'		=> 'Escribir entrada',
-		'cats'		=> 'Manejar categorías'
+		'write'		=> 'Nueva entrada',
+		'list'		=> 'Administrar entradas',
+		'cats'		=> 'Administrar categorías'
 	);
 
 
@@ -13,9 +13,9 @@
 	
 	$lang['admin']['entry']['list'] = 
 	array(
-		'head'		=> 'Manejas entradas',
-		'descr'		=> 'Por favor seleccione una entrada a editar o <a href="admin.php?p=entry&amp;action=write">agrege una</a>'.
-					'<br /><a href="admin.php?p=entry&amp;action=cats">Editar categorías</a>',
+		'head'		=> 'Administrar entradas',
+		'descr'		=> '<a class="button" href="admin.php?p=entry&amp;action=write">Nueva entrada</a>'.
+					   '<a class="button" href="admin.php?p=entry&amp;action=cats">Editar categorías</a>',
 		'filter'	=> 'Filtros: ',
 		'nofilter'	=> 'Mostrar todas',
 		'filterbtn'	=> 'Habilitar filtro',
@@ -23,7 +23,7 @@
 		'date'		=> 'Fecha',
 		'title'		=> 'Titulo',
 		'author'	=> 'Autor',
-		'comms'		=> '#Comentarios', // comments
+		'comms'		=> 'Comentarios', // comments
 		'action'	=> 'Acciones',
 		'act_del'	=> 'Eliminar',
 		'act_view'	=> 'Mostrar',
@@ -33,7 +33,7 @@
 	/* write action */
 	$lang['admin']['entry']['write'] = 
 	array(
-		'head'		=> 'Ecribir entrada',
+		'head'		=> 'Nueva entrada',
 		'descr'		=> 'Editar la forma de escribir la entrada',
 		'uploader'	=> 'Archivos',
 		'fieldset1'	=> 'Editar',
@@ -44,13 +44,13 @@
 		'preview'	=> 'Vista previa',
 		'savecontinue'	=> 'Guardar &amp; Continuar',
 		'archive'	=> 'Archivo',
-		'nocategories'	=> 'No hay categorías. <a href="admin.php?p=entry&amp;action=cats">Cree una '. 
-					'categorías</a> desde el panel principal. '.
-					'<a href="#save">Guarde</a> su entrada primero.',
+		'nocategories'	=> 'No hay categorías. <a href="admin.php?p=entry&amp;action=cats">Crea una '. 
+					'categoría</a>. '.
+					'<a href="#save">Guarda</a> tu entrada primero.',
 		'saveopts'	=> 'Guardar opciones',
-		'success'	=> 'Su entrada fue publicada correctamente',
+		'success'	=> 'Tu entrada fue publicada correctamente',
 		'otheropts'	=> 'Otras opciones',
-		'commmsg'	=> 'Manegar comentario de esta entrada',
+		'commmsg'	=> 'Administrar comentarios',
 		'delmsg'	=> 'Eliminar esta entrada',
 		//'back'		=> 'Volver descartando los cambios',
 	);
@@ -60,7 +60,7 @@
 		1	=> 'La entrada fue guardada correctamente',
 		-1	=> 'Ocurrió un error al intentar guardar la entrada',
 		2	=> 'Entrada eliminada correctamente',
-		-2	=>	 'Error al intentar eliminar la entrada',
+		-2	=> 'Error al intentar eliminar la entrada',
 	);
 
 	
@@ -72,10 +72,10 @@
 	$lang['admin']['entry']['write']['msgs'] = array(
 		1	=> 'La entrada fue guardada correctamente',
 		-1	=> 'Ocurrió un error: su entrada no pudo ser guardada correctamente',
-		-2	=> 'Ocurrió un error: su entrada no pudo ser guardada; el index está corrompido',
+		-2	=> 'Ocurrió un error: su entrada no pudo ser guardada; el índice está corrompido',
 		-3	=> 'Ocurrió un error: su entrada no pudo ser guardada en el borrador',
-		-4	=> 'Ocurrió un error: su entrada no pudo ser guardada como borrador; el index está corrompido',
-		'draft'=> 'Usted está editando <strong>borrador</strong>'
+		-4	=> 'Ocurrió un error: su entrada no pudo ser guardada como borrador; el índice está corrompido',
+		'draft'=> 'Estás editando un <strong>borrador</strong>'
 	);
 
 	
@@ -86,7 +86,7 @@
 		'head'		=> "Comentarios de la entrada ", 
 		'descr'		=> 'Selecciona un comentario para eliminar',
 		'sel'		=> 'Seleccionar',
-		'content'	=> 'Contentenido',
+		'content'	=> 'Contenido',
 		'date'		=> 'Fecha',
 		'author'	=> 'Autor',
 		'email'		=> 'Email',
@@ -133,12 +133,12 @@
 	$lang['admin']['entry']['delete'] = 
 	array(
 		'head'		=> 'Eliminar entrada', 
-		'descr'		=> 'Seguro que desea borrar la siguiente entrada:',
+		'descr'		=> '¿Seguro que desea borrar la siguiente entrada?',
 		'preview'	=> 'Vista previa',
 		'confirm'	=> '¿Está seguro de que desea continuar?',
 		'fset'		=> 'Eliminar',
 		'ok'		=> 'Si, eliminar la entrada',
-		'cancel'	=> 'No, volver atrás al panel',
+		'cancel'	=> 'No, volver atrás',
 		'err'		=> 'La entrada especificada no existe',
 	
 	);
@@ -159,7 +159,7 @@ Neticias :2
 ----Misceláneas :5
 Technología :6
 	</pre>',
-		'clear'		=> 'Eliminar toda la categorías',
+		'clear'		=> 'Eliminar todas la categorías',
 	
 		'fset1'		=> 'Editor',
 		'fset2'		=> 'Aplicar cambios',

@@ -1,14 +1,14 @@
 <?php
 
-	$lang['admin']['head'] = '&#192;rea de Administraci&#243;n';
+	$lang['admin']['head'] = 'Panel de Administraci&#243;n';
 	
 	$lang['admin']['panels'] = array(
 		'main'		=> 'Principal',
 		'config'	=> 'Opciones',
 		//'users'		=> 'Usuarios',
 		'entry'		=> 'Entradas',
-		'static'	=> 'Est&#224ticas',
-		'uploader'	=> 'Archivos',
+		'static'	=> 'P&aacute;ginas',
+		'uploader'	=> 'Media',
 		'widgets'	=> 'Widgets',
 		//'add'		=> 'Añadir',
 		//'edit'		=> 'Eitar/Eliminar',
@@ -22,8 +22,8 @@
 	$lang['admin']['general'] = array(
 		'id'		=> 'Id',	# for entry ids
 		'name'		=> 'Nombre', 	# for file names
-		'title'		=> 'Titulo', # for entry/posts/static titles
-		'comments'	=> '#Commentarios',
+		'title'		=> 'Título', # for entry/posts/static titles
+		'comments'	=> 'Comentarios',
 		'author'	=> 'Autor',
 		'actdel'	=> 'Eliminar',
 		'actedit'	=> 'Editar',

@@ -42,8 +42,8 @@ function plugin_lastentries_widget() {
 			
 		$string .='<li>';
 		$admin = BLOG_BASEURL . "admin.php?p=entry&amp;entry=";
-		if (user_loggedin()) // if loggedin prints a "edit" link
-			$string .= "<a href=\"{$admin}{$id}\">[".$lang['plugin']['lastentries']['edit']."]</a>";
+		if (user_loggedin()) // if loggedin prints a "edit" link, but I don't like so I comment it...
+			//$string .= "<a href=\"{$admin}{$id}\">[".$lang['plugin']['lastentries']['edit']."]</a>";
 		$string .= "<a href=\"{$link}\">{$entry['subject']}</a></li>\n";
 
 		$count++;

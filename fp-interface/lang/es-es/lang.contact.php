@@ -2,8 +2,8 @@
 
 	$lang['contact'] = array(
 		'head'		=> 'Contactar',
-		'descr'		=> 'Rellene el siguiente formulario para enviar mensajes. Por favor agrega tu correo electrónico si desea ser contestado.',
-		'fieldset1'	=> 'Datos del Usuario',
+		'descr'		=> 'Rellene el siguiente formulario para enviar un mensaje. Por favor agregue su correo electrónico si desea ser contestado.',
+		'fieldset1'	=> 'Datos del usuario',
 		'name'		=> 'Nombre (*)',
 		'email'		=> 'Email:',
 		'www'		=> 'Web:',

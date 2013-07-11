@@ -4,12 +4,12 @@
 
 	$lang['main'] = array(
 		
-		'nextpage'		=> 'Siguiente página &raquo;',
-		'prevpage'		=> '&laquo; Página anterior',
+		'nextpage'		=> 'Página Siguiente &raquo;',
+		'prevpage'		=> '&laquo; Página Anterior',
 		'entry'      	=> 'Entrada',
 		'static'     	=> 'Página estática',
 		'comment'    	=> 'Comentario',
-		'preview'    	=> 'Editar/Vista PRevia',
+		'preview'    	=> 'Editar/Vista Previa',
 		
 		'filed_under'	=> 'Archivos antiguos ',	
 		
@@ -35,11 +35,11 @@
 		'fulltext'	=> 'Texto completo',
 		
 		'fset2'	=> 'Fecha',
-		'datedescr'	=> 'Puede enlazar su búsqueda a una fecha específica. Usted puede seleccionar un año y un mes, o una fecha completa.'.
+		'datedescr'	=> 'Puede enlazar su búsqueda con una fecha específica. Usted puede seleccionar un año y un mes, o una fecha completa.'.
 					'Dejar en blanco para buscar en la base de datos.',
 		
 		'fset3' 	=> 'Buscar en categorías',
-		'catdescr'	=> 'No seleccione para buscar en todos',
+		'catdescr'	=> 'No seleccione nada para buscar globalmente',
 		
 		'fset4'	=> 'Empezar búsqueda',
 		'submit'	=> 'Buscar',
@@ -100,9 +100,9 @@
 	$lang['login']['success'] = array(
 		'success'	=> 'Ha accedido correctamente.',
 		'logout'	=> 'Ha cerrado sesión correctamente.',
-		'redirect'	=> 'Será llevado en 5 segundos.',
-		'opt1'		=> 'Volver al index',
-		'opt2'		=> 'Ir al panel de control',
+		'redirect'	=> 'Va ha ser redirigido en 5 segundos.',
+		'opt1'		=> 'Volver al índice',
+		'opt2'		=> 'Ir al Panel de Administración',
 		'opt3'		=> 'Añadir nueva entrada'
 	);
 	
@@ -115,7 +115,7 @@
 	
 	$lang['comments'] = array(
 		'head'		=> 'Añadir comentario',
-		'descr'		=> 'Rellene el siguiente formulario para añadir sus propios comentarios',
+		'descr'		=> 'Rellene el siguiente formulario para añadir un comentario',
 		'fieldset1'	=> 'Datos de Usuario',
 		'name'		=> 'Nombre (*)',
 		'email'		=> 'Email:',

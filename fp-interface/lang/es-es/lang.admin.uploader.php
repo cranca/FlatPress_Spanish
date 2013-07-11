@@ -11,7 +11,7 @@
 	);
 
 	$lang['admin']['uploader']['default']['msgs'] = array(
-		1	=> 'Archivo(s) subidos',
+		1	=> 'Archivo(s) subido(s)',
 		-1	=> 'Ocurrió un error al intentar subir los archivos.',
 	);
 	

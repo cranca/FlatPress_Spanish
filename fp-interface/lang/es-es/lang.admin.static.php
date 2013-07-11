@@ -1,8 +1,8 @@
 <?php
 
 	$lang['admin']['static']['submenu'] = array(
-		'list'		=> 'Manejar Estáticas',
-		'write'		=> 'Escribir Estática'
+		'list'		=> 'Administrar Páginas',
+		'write'		=> 'Nueva Página'
 	);
 
 	
@@ -10,10 +10,10 @@
 		
 	$lang['admin']['static']['list'] = array(
 	
-		'head'		=> 'Páginas Estáticas',
-		'descr'		=> 'Por favor, seleccione una página aeditar o <a href="admin.php?p=static&amp;action=write">añada una</a>.',
+		'head'		=> 'Páginas',
+		'descr'		=> 'Por favor, seleccione una página para editar o añada una <a href="admin.php?p=static&amp;action=write">nueva página</a>.',
 	
-		'sel'		=> 'Sellecionar', // checkbox
+		'sel'		=> 'Selecionar', // checkbox
 		'date'		=> 'Fecha',
 		'name'		=> 'Página',
 		'title'		=> 'Título',
@@ -28,7 +28,7 @@
 	$lang['admin']['static']['list']['msgs'] = array(
 		1	=> 'La página fue guardada correctamente',
 		-1	=> 'Oucrrió un error al intentar guardar la página',
-		2	=> 'La página fue eliminar correctamente',
+		2	=> 'La página fue eliminada correctamente',
 		-2	=>	 'Ocurrió un error al intentar eliminar la página',
 	);
 
@@ -36,7 +36,7 @@
 
 	$lang['admin']['static']['write'] = 
 	array(
-		'head'		=> 'Publicar Página Estática',
+		'head'		=> 'Publicar Página',
 		'descr'		=> 'Editar la forma de publicar la página',
 		'fieldset1'	=> 'Editar',
 		'subject'	=> 'Título (*):',
@@ -54,21 +54,21 @@
 	);
 	
 	$lang['admin']['static']['write']['error'] = array(
-		'subject'	=> 'No puede enviar un título en blanco',
-		'content'	=> 'No puede enviar el contenido en blanco',
-		'id'		=> 'Debe enviar una ID válida'
+		'subject'	=> 'No puede dejar el título en blanco',
+		'content'	=> 'No puede dejar el contenido en blanco',
+		'id'		=> 'Debe usar una ID válida'
 	);
 	
 	
 	/* delete action */	
 	$lang['admin']['static']['delete'] = array(
 		'head'		=> "Eliminar página", 
-		'descr'		=> 'Está a punto de borrar la página siguiente:',
+		'descr'		=> 'Está a punto de borrar la siguiente página:',
 		'preview'	=> 'Vista Previa',
-		'confirm'	=> 'Seguro que desea proceder?',
-		'fset'		=> 'Elimnar',
+		'confirm'	=> '¿Seguro que desea continuar?',
+		'fset'		=> 'Eliminar',
 		'ok'		=> 'Si, eliminar la página',
-		'cancel'	=> 'No, volver atrás al pane',
+		'cancel'	=> 'No, volver al Panel de Administración',
 		'err'		=> 'La página especificada no existe',
 	
 	);

@@ -8,9 +8,9 @@
 	$lang['admin']['widgets']['default'] = array(
 		'head'		=> 'Manejador de widgets (<em>experimental</em>)',
 		
-		'descr'		=> 	'A <a class="hint" '.
+		'descr'		=> 	'Un <a class="hint" '.
 						'href="http://wiki.flatpress.org/doc:widgets" title="¿Qué es un widget?">'.
-						'Widget</a> es un componente dinámico que puede mostrar los datos e interactuar con el usuario.
+						'widget</a> es un componente dinámico que puede mostrar los datos e interactuar con el usuario.
 						Mientras que los <strong>Temas</strong> están destinados al diseño del blog, los Widgets 
 						<strong>extienden</strong> la aparencia y las funcionalidades.</p>
 
@@ -23,13 +23,13 @@ mostrar un cuadro de búsqueda, etc</p>
 						<p>Cada Widget está definido con un <a class="hint" '.
 						'href="http://wiki.flatpress.org/doc:plugins" title="¿Qué es un plugin?">plugin</a>.',
 						
-		'availwdgs'	=> 'Widgets Disponibles',
+		'availwdgs'	=> 'Widgets disponibles',
 		'trashcan'	=> 'Arrastre aquí para eliminar',
 		
 		'themewdgs' => 'Widgetsets de este tema',
-		'themewdgsdescr' => 'El tema que habéis seleccionado en ese momento le permiten tener los siguientes widgetsets',
+		'themewdgsdescr' => 'El tema que ha seleccionado le permite tener los siguientes widgetsets',
 		'oldwdgs'	=> 'Otros widgetsets',
-		'oldwdgsdescr' =>'El siguiente widgetsets parece no pertenecer a ninguna de las '.
+		'oldwdgsdescr' =>'El siguiente widgetsets parece no pertenecer a ninguna de los '.
 						'widgetsets mencionados anteriormente. Pueden ser del antiguo tema.',
 		
 		'submit'	=> 'Guardar Cambios',
@@ -38,9 +38,9 @@ mostrar un cuadro de búsqueda, etc</p>
 	
 	$lang['admin']['widgets']['default']['stdsets'] = array(
 		'top'		=> 'Barra Superior',
-		'bottom'	=> 'Barra inferior',
-		'left'		=> 'Barra de la izquierda',
-		'right'		=> 'Barra de la derecha',
+		'bottom'	=> 'Barra Inferior',
+		'left'		=> 'Barra de la Izquierda',
+		'right'		=> 'Barra de la Derecha',
 	);
 	
 	$lang['admin']['widgets']['default']['msgs'] = array(
@@ -53,14 +53,12 @@ mostrar un cuadro de búsqueda, etc</p>
 	/* "raw" panel */	
 	
 	$lang['admin']['widgets']['raw'] = array(
-		'head'		=> 'Manejar Widgets (<em>editor avanzado</em>)',
-		'descr'		=> 'A <a class="hint" '.
+		'head'		=> 'Administrar Widgets (<em>editor avanzado</em>)',
+		'descr'		=> '<p>Este es el editor para usuarios avanzados.</p><p>Un <a class="hint" '.
 						'href="http://wiki.flatpress.org/doc:plugins" title="¿Qué es un widget?">'.
-						'Widget</a> es un elemento visual de un <a class="hint" '.
+						'widget</a> es un elemento visual de un <a class="hint" '.
 						'href="http://wiki.flatpress.org/doc:plugins" title="¿Qué es un pluging?">'.
-						'Plugin</a> que usted puede poner en algunas áreas especiales(los <em>widgetsets</em>) en las páginas de su blog. </p>'.
-						'<p>Este es el editor <strong>avanzado</strong>; para usuarios avanzados, '.
-						'o que no dispongan de Javascript.',
+						'plugin</a> que puede ponerse en algunas áreas especiales (los <em>widgetsets</em>) en las páginas de su blog. </p>',
 						
 		'fset1'		=> 'Editor',
 		'fset2'		=> 'Aplicar cambios',
@@ -79,8 +77,8 @@ mostrar un cuadro de búsqueda, etc</p>
 	/* system errors */
 		
 	$lang['admin']['widgets']['errors'] = array(
-		'generic'	=> 'El widgets llamado <strong>%s</strong> no está resgitrado, y no se tendrá en cuenta. '.
- 				'¿Está el plugin activado en el <a href="admin.php?p=plugin">pandel de plugings</a>?'
+		'generic'	=> 'El widget llamado <strong>%s</strong> no está resgitrado, y no se tendrá en cuenta. '.
+ 				'¿Está el plugin activado en el <a href="admin.php?p=plugin">panel de plugings</a>?'
 
 	);
 	

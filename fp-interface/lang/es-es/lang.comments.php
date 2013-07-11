@@ -3,7 +3,7 @@
 	$lang['comments']['mail'] = <<<MAIL
 Estimado %toname%,
 
-"%fromname%" %frommail% has just posted a comment to the entry entitled "%entrytitle%".
+"%fromname%" %frommail% acaba de publicar un comentario a la entrada "%entrytitle%".
 
 Esto es un link al comentario de su entrada:
 %commentlink%

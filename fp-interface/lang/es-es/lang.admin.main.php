@@ -3,7 +3,7 @@
 	$lang['admin']['panel']['main'] = 'Principal';
 	
 	$lang['admin']['main']['default'] = array(
-		'head'		=> 'Bienvenido al panel de control!',
+		'head'		=> '¡Bienvenido al Panel de Administración!',
 		'descr'		=> 'Seleccione una opción',
 		
 		'op1'		=> 'Nueva entrada',
@@ -15,9 +15,9 @@
 		'op4'		=> 'Plugins',
 		'op4d'		=> 'Instalar, activar, desactivar plugins',
 		'op5'		=> 'Configuración',
-		'op5d'		=> 'Personalice su flatpress',
+		'op5d'		=> 'Personalice su FlatPress',
 		'op6'		=> 'Mantenimiento',
-		'op6d'		=> 'Limpiar y restaurar flatpress',
+		'op6d'		=> 'Limpiar y restaurar FlatPress',
 		
 	);
 ?>
